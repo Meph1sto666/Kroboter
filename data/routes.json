@@ -1,0 +1,16 @@
+{
+	"base": "https://krooster.com/",
+	"api_v1": "{base}api/v1/",
+	"v1_auth": "{api_v1}auth/",
+	"v1_auth_login": "{v1_auth}login",
+	"v1_auth_refresh": "{v1_auth}refresh",
+	"v1_auth_signup": "{v1_auth}signup",
+	"v1_users": "{api_v1}users/",
+	"v1_uname": "{v1_users}{username}/",
+	"v1_roster": "{v1_uname}roster/",
+	"v1_roster_id": "{v1_roster}/{op_id}",
+	"v1_supp": "{v1_uname}supports/",
+	"v1_supp_slot": "{v1_supp}/{slot}",
+	"v1_u_connections": "{v1_uname}connections",
+	"v1_u_profile": "{v1_uname}profile"
+}
