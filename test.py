@@ -1,12 +1,27 @@
-from lib.types.error import *
-import json
+from lib.misc import *
 
-def getRoute(key:str, data:dict[str, str]={}, route:str="", routeData:dict[str, str]={}) -> str:
-	if len(route) <= 0 or routeData == {}:
-		routeData = json.load(open("./data/routes.json"))
-		route = routeData.get(key, "~")
-	if key in route: raise InvalidRoute(route)
-	if not "{" in route: return route
-	return getRoute(key, data, route.format(**dict(**routeData, **data)), routeData)
+params:list[tuple[int,int]] = [(593, 744)]
 
-print(getRoute("v1_u_profile", {"username": "12345"}))
+for p in params:
+	print(p)
+	x:int=p[0];y:int=p[1]
+	[print(rgbToHex(textToColor(o))) for o in [
+		"Blaze",
+		"Gladiia",
+		"Lumen",
+		"Exusiai",
+
+		"Breeze",
+		"Goldenglow",
+		"Mudrock",
+		"Cantabile",
+		"Shirayuki",
+	]]
+ 
+# (394, 595) breeze, blaze, gladiia, lumen
+# (228, 415)? breeze, blaze, gladiia, lumen / meh
+
+# (179, 236) EXU; GLADIIA, breeze, blaze / not bad
+# (249, 720) exu, gladiia, blaze, lumen / meh
+
+# (593, 744) blaze, glad, lum, exu
