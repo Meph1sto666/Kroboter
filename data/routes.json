@@ -12,5 +12,10 @@
 	"v1_supp": "{v1_uname}supports/",
 	"v1_supp_slot": "{v1_supp}/{slot}",
 	"v1_u_connections": "{v1_uname}connections",
-	"v1_u_profile": "{v1_uname}profile"
+	"v1_u_profile": "{v1_uname}profile",
+
+	"lookup": "{base}network/lookup/{username}",
+	
+	"op_thumbnail_265": "{base}_next/image?url=/img/avatars/{char_id}.png&w=256&q=75",
+	"op_thumbnail_128": "{base}_next/image?url=/img/avatars/{char_id}.png&w=128&q=75"
 }
