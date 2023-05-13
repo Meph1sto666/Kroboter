@@ -80,21 +80,6 @@ class Operator:
             None if no skin is selected.
     """
     def __init__(self, id: str, owned: bool, favourite: bool, potential: int, elite: int, level: int, rank: int, masteries: list[int], modules: list[int], skin: str | None, users: typing.Any = None) -> None:
-        """_summary_
-
-        Args:
-            id (str): _description_
-            owned (bool): _description_
-            favourite (bool): _description_
-            potential (int): _description_
-            elite (int): _description_
-            level (int): _description_
-            rank (int): _description_
-            masteries (list[int]): _description_
-            modules (list[int]): _description_
-            skin (str | None): _description_
-            users (typing.Any, optional): _description_. Defaults to None.
-        """
         self.id: str = id
         self.owned: bool = owned
         self.favourite: bool = favourite
@@ -106,6 +91,10 @@ class Operator:
         self.modules: list[int] = modules
         self.skin: str | None = skin
         self.users: typing.Any = users
+
+    def summary(self) -> str:
+        # return f"""{getOperatorNameById(self.id)+' ' if name else''}E{self.elite} LV{self.level} {''.join([f'/ S{m+1}M{self.masteries[m]} ' if self.masteries[m]>0 else''for m in range(len(self.masteries))])if not all([m==0 for m in self.masteries])>0 else f'/ R{self.rank} '}{''.join([f'/ M{m+1}ST{str(self.modules[m])} 'if self.modules[m]>0 else""for m in range(len(self.modules))])if sum(self.modules)>0 else''}"""
+        return f"{', '.join(filter(None,[f'S{m+1}M{self.masteries[m]}'if self.masteries[m]>0 else None for m in range(len(self.masteries))]))if not all([m==0 for m in self.masteries])>0 else f'R{self.rank}'} {'| '+', '.join(filter(None,[f'M{m+1}S{str(self.modules[m])}'if self.modules[m]>0 else None for m in range(len(self.modules))]))if sum(self.modules)>0 else''}"
 
     def createEmbed(self, profileUrl:str|None=None, profileName:str|None=None) -> discord.Embed:
         opName:str = getOperatorNameById(self.id)
@@ -121,10 +110,25 @@ class Operator:
                     if not all([m==0 for m in self.masteries]) > 0 else str(self.rank), inline=True),
             ]
         )
-        emb.add_field(name="modules".upper(), value="".join([f"M{m+1} L{str(self.modules[m])}\n" for m in range(len(self.modules))]), inline=True) if sum(self.modules) > 0 else None
+        emb.add_field(name="modules".upper(), value="".join([f"M{m+1} ST{str(self.modules[m])}\n" for m in range(len(self.modules))]), inline=True) if sum(self.modules) > 0 else None
         emb.set_footer(text="Fetched from Krooster API v1")
         emb.set_thumbnail(url=getRoute(key="op_thumbnail_265", data={"char_id":self.skin if self.skin!=None else self.id}))
         authorDta:dict[str, str] = {"name": profileName if profileName != None else ""}
         if profileUrl != None: authorDta["url"] = profileUrl
         emb.set_author(**authorDta)
         return emb
+    
+class RecruitmentOp():
+    def __init__(self, id:str, name:str, rarity:int, tags:list[str]) -> None:
+        self.id:str = id
+        self.name:str = name
+        self.rarity:int = rarity
+        self.tags:list[str] = tags
+
+    def matchesTags(self, sTags:list[str]) -> bool:
+        return all([t in self.tags for t in sTags]) and (("Top Operator" in self.tags) == ("Top Operator" in sTags))
+    def createEmbedField(self) -> discord.EmbedField:
+        return discord.EmbedField(
+            name=self.name + f"[{self.rarity} \U00002B50]",
+            value="\n".join(self.tags)
+        )

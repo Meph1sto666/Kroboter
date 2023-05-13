@@ -1,27 +1,9 @@
-from lib.misc import *
+import json
+from lib.types.operator import *
+data:dict[str, list[str | dict[str, str | int | list[str]]]] = json.load(open("./data/recruitment.json", "r", encoding="utf-8"))
+# operators: list[operators] = data.get("ops", []) # type: ignore
+operators: list[RecruitmentOp] = [RecruitmentOp(**o) for o in data.get("ops", [])] # type
+tags: list[str] = data.get("tags", []) # type: ignore
 
-params:list[tuple[int,int]] = [(593, 744)]
-
-for p in params:
-	print(p)
-	x:int=p[0];y:int=p[1]
-	[print(rgbToHex(textToColor(o))) for o in [
-		"Blaze",
-		"Gladiia",
-		"Lumen",
-		"Exusiai",
-
-		"Breeze",
-		"Goldenglow",
-		"Mudrock",
-		"Cantabile",
-		"Shirayuki",
-	]]
- 
-# (394, 595) breeze, blaze, gladiia, lumen
-# (228, 415)? breeze, blaze, gladiia, lumen / meh
-
-# (179, 236) EXU; GLADIIA, breeze, blaze / not bad
-# (249, 720) exu, gladiia, blaze, lumen / meh
-
-# (593, 744) blaze, glad, lum, exu
+selectedTags:list[str] = ["Guard", "Support", "Healing", "Starter"]
+print([o.name for o in list(filter(lambda o: o.matchesTags(selectedTags), operators))])

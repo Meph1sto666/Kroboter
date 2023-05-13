@@ -1,178 +1,185 @@
-2023-05-07T14:08:08 [     317] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T14:08:08 [     744] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T14:08:09 [     364] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T14:08:09 [     589] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-znx1",{"micros":110445,"calls":["id_created",{"micros":1182,"calls":[]},"session_lookup_time",{"micros":1110,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-7",{"micros":104205,"calls":["start_session",{"micros":87739,"calls":["discord-api-785656c5b6-h62cr",{"micros":76731,"calls":["get_user",{"micros":33538},"get_guilds",{"micros":4338},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":4232,"calls":[]},"guilds_started",{"micros":85,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":12032,"calls":[]},"connect_finished",{"micros":12037,"calls":[]},"build_ready",{"micros":23,"calls":[]},"clean_ready",{"micros":26,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: d0866557d6a20540a0f993564510606c).
-2023-05-07T14:11:24 [     934] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T14:11:25 [     454] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T14:11:26 [     376] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T14:11:26 [     594] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-zf6z",{"micros":99435,"calls":["id_created",{"micros":1396,"calls":[]},"session_lookup_time",{"micros":1349,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-278",{"micros":96083,"calls":["start_session",{"micros":47978,"calls":["discord-api-785656c5b6-stk2n",{"micros":38655,"calls":["get_user",{"micros":11674},"get_guilds",{"micros":4571},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":65,"calls":[]},"presence_started",{"micros":259,"calls":[]},"guilds_started",{"micros":69,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":47654,"calls":[]},"connect_finished",{"micros":47658,"calls":[]},"build_ready",{"micros":24,"calls":[]},"clean_ready",{"micros":26,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":2,"calls":[]}]}]}] (Session ID: 03b662d57313325746d86a69a2acadcd).
-2023-05-07T14:12:17 [     433] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T14:12:17 [     675] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T14:12:19 [     628] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T14:12:19 [     873] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-fps5",{"micros":130982,"calls":["id_created",{"micros":1346,"calls":[]},"session_lookup_time",{"micros":324,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-prd-2-263",{"micros":128667,"calls":["start_session",{"micros":100567,"calls":["discord-api-785656c5b6-6szkg",{"micros":91917,"calls":["get_user",{"micros":37173},"get_guilds",{"micros":10557},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":48,"calls":[]},"presence_started",{"micros":274,"calls":[]},"guilds_started",{"micros":98,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":27627,"calls":[]},"connect_finished",{"micros":27632,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":23,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":2,"calls":[]}]}]}] (Session ID: 1c09285a42b000554ac48db7ce7d9c9b).
-2023-05-07T14:16:47 [      88] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T14:16:47 [     312] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T14:16:47 [     881] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T14:16:48 [     162] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-xsdk",{"micros":155717,"calls":["id_created",{"micros":1215,"calls":[]},"session_lookup_time",{"micros":6597,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-283",{"micros":145446,"calls":["start_session",{"micros":72137,"calls":["discord-api-785656c5b6-4bfr9",{"micros":66779,"calls":["get_user",{"micros":25653},"get_guilds",{"micros":5666},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":17}]}]},"starting_guild_connect",{"micros":50,"calls":[]},"presence_started",{"micros":12371,"calls":[]},"guilds_started",{"micros":76,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":60765,"calls":[]},"connect_finished",{"micros":60769,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":22,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 0310610881adfcec76ba8d6688ace392).
-2023-05-07T14:18:23 [     720] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T14:18:23 [     962] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T14:18:24 [     536] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T14:18:24 [     812] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-20wx",{"micros":160897,"calls":["id_created",{"micros":1550,"calls":[]},"session_lookup_time",{"micros":1877,"calls":[]},"session_lookup_finished",{"micros":19,"calls":[]},"discord-sessions-prd-2-262",{"micros":157154,"calls":["start_session",{"micros":63131,"calls":["discord-api-785656c5b6-wrkps",{"micros":56825,"calls":["get_user",{"micros":15696},"get_guilds",{"micros":2917},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":782},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":63,"calls":[]},"presence_started",{"micros":26551,"calls":[]},"guilds_started",{"micros":70,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":67290,"calls":[]},"connect_finished",{"micros":67295,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":20,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 3426e780e822d0664f30ab8aff26e39c).
-2023-05-07T14:18:57 [     499] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T14:18:57 [     729] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T14:18:58 [     299] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T14:18:58 [     586] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-fdrl",{"micros":165974,"calls":["id_created",{"micros":2249,"calls":[]},"session_lookup_time",{"micros":323,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-185",{"micros":162928,"calls":["start_session",{"micros":62692,"calls":["discord-api-785656c5b6-bf9f4",{"micros":58235,"calls":["get_user",{"micros":16879},"get_guilds",{"micros":7567},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":63,"calls":[]},"presence_started",{"micros":42481,"calls":[]},"guilds_started",{"micros":75,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":57566,"calls":[]},"connect_finished",{"micros":57571,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":21,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 4bee7c409f61dee67032a1b96ab7444f).
-2023-05-07T14:24:04 [     310] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T14:24:04 [     527] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T14:24:05 [      96] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T14:24:05 [     285] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-bnb9",{"micros":71762,"calls":["id_created",{"micros":4024,"calls":[]},"session_lookup_time",{"micros":307,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-42",{"micros":66762,"calls":["start_session",{"micros":48675,"calls":["discord-api-785656c5b6-dq57q",{"micros":44618,"calls":["get_user",{"micros":15344},"get_guilds",{"micros":4081},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":518},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":45,"calls":[]},"presence_started",{"micros":316,"calls":[]},"guilds_started",{"micros":83,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":17585,"calls":[]},"connect_finished",{"micros":17591,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":28,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 07a5a0f3c623da73c92ed018d808d65b).
-2023-05-07T14:24:44 [     684] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T14:24:44 [     880] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T14:24:45 [     521] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T14:24:45 [     821] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-4hgv",{"micros":175222,"calls":["id_created",{"micros":1088,"calls":[]},"session_lookup_time",{"micros":349,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-262",{"micros":173388,"calls":["start_session",{"micros":107538,"calls":["discord-api-785656c5b6-f9qv2",{"micros":102365,"calls":["get_user",{"micros":28868},"get_guilds",{"micros":16544},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":50,"calls":[]},"presence_started",{"micros":42534,"calls":[]},"guilds_started",{"micros":83,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":23121,"calls":[]},"connect_finished",{"micros":23127,"calls":[]},"build_ready",{"micros":27,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":27,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 543b8d0b42fb271d81ea444f5ef5c9e8).
-2023-05-07T14:42:01 [     779] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T14:42:01 [     867] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T14:42:01 [     911] INFO    : client          @run              #712  : Cleaning up tasks.
-2023-05-07T14:42:01 [     911] INFO    : client          @_cleanup_loop    #112  : Closing the event loop.
-2023-05-07T14:42:21 [      88] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T14:42:21 [     142] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T14:42:21 [     847] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T14:42:22 [      69] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-7v9b",{"micros":104511,"calls":["id_created",{"micros":1501,"calls":[]},"session_lookup_time",{"micros":266,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-252",{"micros":102365,"calls":["start_session",{"micros":42846,"calls":["discord-api-785656c5b6-9x6hl",{"micros":38776,"calls":["get_user",{"micros":14925},"get_guilds",{"micros":3264},"send_scheduled_deletion_message",{"micros":26},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":55,"calls":[]},"presence_started",{"micros":385,"calls":[]},"guilds_started",{"micros":76,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":58921,"calls":[]},"connect_finished",{"micros":58925,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":52,"calls":[]}]}]}] (Session ID: 12f5503768ce1613453acc89b27692fa).
-2023-05-07T14:47:15 [     394] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T14:47:15 [     446] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T14:47:16 [      11] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T14:47:16 [     290] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-fvcf",{"micros":156843,"calls":["id_created",{"micros":1087,"calls":[]},"session_lookup_time",{"micros":2109,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-113",{"micros":153024,"calls":["start_session",{"micros":87867,"calls":["discord-api-785656c5b6-4rjp8",{"micros":81815,"calls":["get_user",{"micros":32240},"get_guilds",{"micros":6217},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":63,"calls":[]},"presence_started",{"micros":403,"calls":[]},"guilds_started",{"micros":84,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":64557,"calls":[]},"connect_finished",{"micros":64562,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":26,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 3598fdb308a7d64740b9108982512b7a).
-2023-05-07T14:48:33 [     111] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T14:48:33 [     173] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T14:48:34 [     108] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T14:48:34 [     378] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-07zg",{"micros":152249,"calls":["id_created",{"micros":1366,"calls":[]},"session_lookup_time",{"micros":471,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-168",{"micros":149956,"calls":["start_session",{"micros":77796,"calls":["discord-api-785656c5b6-px9cw",{"micros":71803,"calls":["get_user",{"micros":17389},"get_guilds",{"micros":5245},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":80,"calls":[]},"presence_started",{"micros":14521,"calls":[]},"guilds_started",{"micros":81,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":57433,"calls":[]},"connect_finished",{"micros":57437,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":21,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 05d5e5046ad237fe60ea2536728fb730).
-2023-05-07T17:14:27 [     894] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:14:27 [     950] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T17:14:28 [     522] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T17:14:28 [     790] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-d4df",{"micros":140295,"calls":["id_created",{"micros":1547,"calls":[]},"session_lookup_time",{"micros":313,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-271",{"micros":137332,"calls":["start_session",{"micros":99916,"calls":["discord-api-785656c5b6-l8vr2",{"micros":95343,"calls":["get_user",{"micros":29194},"get_guilds",{"micros":13294},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":58,"calls":[]},"presence_started",{"micros":377,"calls":[]},"guilds_started",{"micros":77,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":36845,"calls":[]},"connect_finished",{"micros":36850,"calls":[]},"build_ready",{"micros":24,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":25,"calls":[]},"split_ready",{"micros":2,"calls":[]}]}]}] (Session ID: c0799c26d286f9c9841b76630098f28b).
-2023-05-07T17:15:31 [     283] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:15:42 [     905] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:15:55 [     139] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:15:55 [     182] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T17:15:55 [     727] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T17:15:55 [     929] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-2dlt",{"micros":88172,"calls":["id_created",{"micros":1138,"calls":[]},"session_lookup_time",{"micros":4849,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-43",{"micros":80966,"calls":["start_session",{"micros":61082,"calls":["discord-api-785656c5b6-6jw2r",{"micros":56715,"calls":["get_user",{"micros":14209},"get_guilds",{"micros":6003},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":3756},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":19457,"calls":[]},"guilds_started",{"micros":84,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":227,"calls":[]},"connect_finished",{"micros":231,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":27,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 9da7ecdbbda45b2079d2181fefd2b191).
-2023-05-07T17:17:09 [     448] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:17:09 [     495] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T17:17:10 [      76] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T17:17:10 [     338] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-2pz0",{"micros":144618,"calls":["id_created",{"micros":1022,"calls":[]},"session_lookup_time",{"micros":442,"calls":[]},"session_lookup_finished",{"micros":27,"calls":[]},"discord-sessions-prd-2-29",{"micros":142219,"calls":["start_session",{"micros":94114,"calls":["discord-api-785656c5b6-94txp",{"micros":84653,"calls":["get_user",{"micros":35443},"get_guilds",{"micros":5867},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":247},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":61,"calls":[]},"presence_started",{"micros":12036,"calls":[]},"guilds_started",{"micros":79,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":35847,"calls":[]},"connect_finished",{"micros":35852,"calls":[]},"build_ready",{"micros":46,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":27,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: fb537e176de568c780fd806daba38588).
-2023-05-07T17:17:29 [      82] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:17:29 [     140] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T17:17:29 [     778] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T17:17:30 [      52] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-bkk2",{"micros":159094,"calls":["id_created",{"micros":1595,"calls":[]},"session_lookup_time",{"micros":416,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-124",{"micros":156405,"calls":["start_session",{"micros":96754,"calls":["discord-api-785656c5b6-vbhvt",{"micros":92273,"calls":["get_user",{"micros":28641},"get_guilds",{"micros":5956},"send_scheduled_deletion_message",{"micros":28},"guild_join_requests",{"micros":3203},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":53,"calls":[]},"presence_started",{"micros":36061,"calls":[]},"guilds_started",{"micros":76,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":23404,"calls":[]},"connect_finished",{"micros":23410,"calls":[]},"build_ready",{"micros":26,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":20,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: fe9eef1fdde3af4e03ba08b95fee49b5).
-2023-05-07T17:19:21 [     862] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:19:21 [     913] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T17:19:22 [     427] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T17:19:22 [     606] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-3mrf",{"micros":65471,"calls":["id_created",{"micros":1590,"calls":[]},"session_lookup_time",{"micros":3484,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-166",{"micros":59283,"calls":["start_session",{"micros":46860,"calls":["discord-api-785656c5b6-pm8n7",{"micros":42867,"calls":["get_user",{"micros":13430},"get_guilds",{"micros":6069},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":55,"calls":[]},"presence_started",{"micros":276,"calls":[]},"guilds_started",{"micros":85,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":11950,"calls":[]},"connect_finished",{"micros":11956,"calls":[]},"build_ready",{"micros":24,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":23,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 904e317f1bc60b5e9b6da1c610590f62).
-2023-05-07T17:26:25 [     215] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:26:25 [     303] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T17:26:25 [     899] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T17:26:26 [     126] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-xqxc",{"micros":103826,"calls":["id_created",{"micros":2235,"calls":[]},"session_lookup_time",{"micros":791,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-2",{"micros":100223,"calls":["start_session",{"micros":78522,"calls":["discord-api-785656c5b6-fzzr7",{"micros":71891,"calls":["get_user",{"micros":21626},"get_guilds",{"micros":6850},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":51,"calls":[]},"presence_started",{"micros":347,"calls":[]},"guilds_started",{"micros":89,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":21148,"calls":[]},"connect_finished",{"micros":21153,"calls":[]},"build_ready",{"micros":32,"calls":[]},"clean_ready",{"micros":25,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 510c17fef3dded40c83144e9e5ab6d03).
-2023-05-07T17:28:16 [     179] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:28:16 [     228] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T17:28:16 [     262] INFO    : client          @run              #712  : Cleaning up tasks.
-2023-05-07T17:28:16 [     262] INFO    : client          @_cleanup_loop    #112  : Closing the event loop.
-2023-05-07T17:28:26 [      79] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:28:26 [     120] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T17:28:26 [     694] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T17:28:27 [     122] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-0bqn",{"micros":300659,"calls":["id_created",{"micros":1236,"calls":[]},"session_lookup_time",{"micros":1150,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-296",{"micros":297588,"calls":["start_session",{"micros":201979,"calls":["discord-api-785656c5b6-w6gvb",{"micros":197096,"calls":["get_user",{"micros":29845},"get_guilds",{"micros":14851},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":33760},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":51,"calls":[]},"presence_started",{"micros":30744,"calls":[]},"guilds_started",{"micros":99,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":64656,"calls":[]},"connect_finished",{"micros":64662,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":28,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 936135f66a95c00e751a735cd43f3a46).
-2023-05-07T17:37:16 [     137] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:37:16 [     205] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T17:37:16 [     728] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T17:37:17 [      42] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-4q8l",{"micros":151513,"calls":["id_created",{"micros":1343,"calls":[]},"session_lookup_time",{"micros":629,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-162",{"micros":147475,"calls":["start_session",{"micros":100227,"calls":["discord-api-785656c5b6-26jjh",{"micros":93031,"calls":["get_user",{"micros":33191},"get_guilds",{"micros":18405},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":54,"calls":[]},"presence_started",{"micros":23238,"calls":[]},"guilds_started",{"micros":91,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":23809,"calls":[]},"connect_finished",{"micros":23814,"calls":[]},"build_ready",{"micros":25,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":23,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: babdc7722f67efe0d71f602b503d5f72).
-2023-05-07T17:37:33 [     102] INFO    : client          @run              #709  : Received signal to terminate bot and event loop.
-2023-05-07T17:37:33 [     102] INFO    : client          @run              #712  : Cleaning up tasks.
-2023-05-07T17:37:33 [     102] INFO    : client          @_cancel_tasks    #87   : Cleaning up after 1 tasks.
-2023-05-07T17:37:33 [     235] INFO    : client          @_cancel_tasks    #92   : All tasks finished cancelling.
-2023-05-07T17:37:33 [     235] INFO    : client          @_cleanup_loop    #112  : Closing the event loop.
-2023-05-07T17:42:41 [     149] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:42:55 [     718] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:47:49 [      17] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:48:05 [     677] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:48:36 [     963] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:48:37 [       4] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T17:48:37 [     608] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T17:48:37 [     941] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-7p0z",{"micros":218685,"calls":["id_created",{"micros":1682,"calls":[]},"session_lookup_time",{"micros":2454,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-49",{"micros":214180,"calls":["start_session",{"micros":198313,"calls":["discord-api-785656c5b6-qnrcf",{"micros":192931,"calls":["get_user",{"micros":61007},"get_guilds",{"micros":7287},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":659},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":56,"calls":[]},"presence_started",{"micros":369,"calls":[]},"guilds_started",{"micros":112,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":15277,"calls":[]},"connect_finished",{"micros":15282,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":24,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: b33bdb6ab81cbd198cfb774eeae5496c).
-2023-05-07T17:55:26 [     138] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:55:26 [     186] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T17:55:26 [     694] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T17:55:26 [     934] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-394z",{"micros":113282,"calls":["id_created",{"micros":799,"calls":[]},"session_lookup_time",{"micros":1763,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-164",{"micros":108867,"calls":["start_session",{"micros":65266,"calls":["discord-api-785656c5b6-vz5nf",{"micros":59152,"calls":["get_user",{"micros":22277},"get_guilds",{"micros":5719},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":586},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":48,"calls":[]},"presence_started",{"micros":284,"calls":[]},"guilds_started",{"micros":72,"calls":[]},"guilds_connect",{"micros":9,"calls":[]},"presence_connect",{"micros":43146,"calls":[]},"connect_finished",{"micros":43158,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":19,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 37381cb9822ef7881b7a2369bf1c9b59).
-2023-05-07T17:57:13 [      48] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T17:57:13 [      91] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T17:57:13 [     661] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T17:57:13 [     980] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-23j6",{"micros":161103,"calls":["id_created",{"micros":1340,"calls":[]},"session_lookup_time",{"micros":413,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-266",{"micros":158840,"calls":["start_session",{"micros":86297,"calls":["discord-api-785656c5b6-bf9f4",{"micros":81722,"calls":["get_user",{"micros":31943},"get_guilds",{"micros":5658},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":432},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":48,"calls":[]},"presence_started",{"micros":29640,"calls":[]},"guilds_started",{"micros":93,"calls":[]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":42708,"calls":[]},"connect_finished",{"micros":42714,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":25,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 07de286f502706b2cf0e694dd4486f07).
-2023-05-07T18:00:50 [     634] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:00:50 [     692] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:00:51 [     224] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:00:51 [     447] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-1wd2",{"micros":108958,"calls":["id_created",{"micros":959,"calls":[]},"session_lookup_time",{"micros":747,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-292",{"micros":106862,"calls":["start_session",{"micros":51463,"calls":["discord-api-785656c5b6-g67tf",{"micros":43659,"calls":["get_user",{"micros":13859},"get_guilds",{"micros":4244},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":227},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":47,"calls":[]},"presence_started",{"micros":4899,"calls":[]},"guilds_started",{"micros":72,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":50306,"calls":[]},"connect_finished",{"micros":50311,"calls":[]},"build_ready",{"micros":37,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":28,"calls":[]},"split_ready",{"micros":2,"calls":[]}]}]}] (Session ID: e7e33d9ebaddb5b6b4b58db973a68917).
-2023-05-07T18:04:35 [     690] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:04:59 [     434] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:04:59 [     480] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:05:00 [      24] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:05:00 [     252] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-zbrx",{"micros":116675,"calls":["id_created",{"micros":1492,"calls":[]},"session_lookup_time",{"micros":312,"calls":[]},"session_lookup_finished",{"micros":32,"calls":[]},"discord-sessions-prd-2-152",{"micros":114509,"calls":["start_session",{"micros":74725,"calls":["discord-api-785656c5b6-mq7m8",{"micros":69054,"calls":["get_user",{"micros":28333},"get_guilds",{"micros":6103},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":3919},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":64,"calls":[]},"presence_started",{"micros":16868,"calls":[]},"guilds_started",{"micros":86,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":22710,"calls":[]},"connect_finished",{"micros":22716,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":24,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 5e797857d67786d91e26d61140979df8).
-2023-05-07T18:11:19 [     137] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:11:19 [     179] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:11:19 [     822] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:11:20 [      41] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-tv6v",{"micros":103190,"calls":["id_created",{"micros":1520,"calls":[]},"session_lookup_time",{"micros":422,"calls":[]},"session_lookup_finished",{"micros":21,"calls":[]},"discord-sessions-prd-2-179",{"micros":100579,"calls":["start_session",{"micros":60974,"calls":["discord-api-785656c5b6-h68s4",{"micros":55577,"calls":["get_user",{"micros":20939},"get_guilds",{"micros":3516},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":53,"calls":[]},"presence_started",{"micros":279,"calls":[]},"guilds_started",{"micros":79,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":39146,"calls":[]},"connect_finished",{"micros":39150,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":21,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 20b3284933cff485bc5a7d3f6d6f98fe).
-2023-05-07T18:11:42 [     726] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:11:42 [     807] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:11:43 [     415] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:11:43 [     591] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-m8kt",{"micros":54281,"calls":["id_created",{"micros":2147,"calls":[]},"session_lookup_time",{"micros":2216,"calls":[]},"session_lookup_finished",{"micros":19,"calls":[]},"discord-sessions-prd-2-74",{"micros":49009,"calls":["start_session",{"micros":45016,"calls":["discord-api-785656c5b6-vbk4t",{"micros":40342,"calls":["get_user",{"micros":13977},"get_guilds",{"micros":3509},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":2026},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":59,"calls":[]},"presence_started",{"micros":327,"calls":[]},"guilds_started",{"micros":93,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":3467,"calls":[]},"connect_finished",{"micros":3471,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":19,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 282b2fe3a2926545b3e4cebec5d88731).
-2023-05-07T18:12:10 [     466] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:12:10 [     508] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:12:11 [     617] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:12:11 [     970] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-fdrl",{"micros":70455,"calls":["id_created",{"micros":954,"calls":[]},"session_lookup_time",{"micros":6196,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-146",{"micros":62990,"calls":["start_session",{"micros":52072,"calls":["discord-api-785656c5b6-cljbf",{"micros":46419,"calls":["get_user",{"micros":14237},"get_guilds",{"micros":4638},"send_scheduled_deletion_message",{"micros":15},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":70,"calls":[]},"presence_started",{"micros":310,"calls":[]},"guilds_started",{"micros":138,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":10337,"calls":[]},"connect_finished",{"micros":10344,"calls":[]},"build_ready",{"micros":24,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":28,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 4c94fe5ef797612d6ef2456500aae04d).
-2023-05-07T18:15:05 [      42] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:15:05 [      97] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:15:05 [     715] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:15:05 [     989] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-3sc8",{"micros":159121,"calls":["id_created",{"micros":1795,"calls":[]},"session_lookup_time",{"micros":366,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-262",{"micros":155713,"calls":["start_session",{"micros":52257,"calls":["discord-api-785656c5b6-rxfq5",{"micros":45866,"calls":["get_user",{"micros":14730},"get_guilds",{"micros":3782},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":649},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":61,"calls":[]},"presence_started",{"micros":43335,"calls":[]},"guilds_started",{"micros":80,"calls":[]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":59918,"calls":[]},"connect_finished",{"micros":59923,"calls":[]},"build_ready",{"micros":27,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":26,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 7130aade83e65220a211300702399134).
-2023-05-07T18:16:52 [     368] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:16:52 [     411] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:16:52 [     937] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:16:53 [     195] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-zrxh",{"micros":131827,"calls":["id_created",{"micros":1867,"calls":[]},"session_lookup_time",{"micros":370,"calls":[]},"session_lookup_finished",{"micros":35,"calls":[]},"discord-sessions-prd-2-42",{"micros":128791,"calls":["start_session",{"micros":108025,"calls":["discord-api-785656c5b6-w27ls",{"micros":99342,"calls":["get_user",{"micros":40515},"get_guilds",{"micros":8616},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":78,"calls":[]},"presence_started",{"micros":548,"calls":[]},"guilds_started",{"micros":129,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":19963,"calls":[]},"connect_finished",{"micros":19970,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":19,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: b6de98dca2b763670ccc998968de1388).
-2023-05-07T18:17:15 [     781] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:17:15 [     833] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:17:16 [     917] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:17:17 [     371] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-kngf",{"micros":65708,"calls":["id_created",{"micros":1488,"calls":[]},"session_lookup_time",{"micros":9804,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-49",{"micros":53847,"calls":["start_session",{"micros":43470,"calls":["discord-api-785656c5b6-cf57s",{"micros":39728,"calls":["get_user",{"micros":16191},"get_guilds",{"micros":3077},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":50,"calls":[]},"presence_started",{"micros":3213,"calls":[]},"guilds_started",{"micros":115,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":6924,"calls":[]},"connect_finished",{"micros":6929,"calls":[]},"build_ready",{"micros":35,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":31,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: c076a8799fd578e7133dd750ad44fdd4).
-2023-05-07T18:17:42 [     930] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:17:42 [     966] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:17:45 [      58] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:17:45 [     322] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-nvms",{"micros":121402,"calls":["id_created",{"micros":948,"calls":[]},"session_lookup_time",{"micros":294,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-188",{"micros":119511,"calls":["start_session",{"micros":92196,"calls":["discord-api-785656c5b6-pbzxc",{"micros":73275,"calls":["get_user",{"micros":15775},"get_guilds",{"micros":8539},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":18}]}]},"starting_guild_connect",{"micros":63,"calls":[]},"presence_started",{"micros":267,"calls":[]},"guilds_started",{"micros":118,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":26810,"calls":[]},"connect_finished",{"micros":26816,"calls":[]},"build_ready",{"micros":25,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":23,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: e51ad984830be0473cb38ec785f2c8da).
-2023-05-07T18:19:25 [     898] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:19:26 [      15] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:19:27 [      59] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:19:27 [     347] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-xsdk",{"micros":104081,"calls":["id_created",{"micros":1320,"calls":[]},"session_lookup_time",{"micros":455,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-70",{"micros":100987,"calls":["start_session",{"micros":87232,"calls":["discord-api-785656c5b6-4jv29",{"micros":81775,"calls":["get_user",{"micros":15680},"get_guilds",{"micros":6467},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":321},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":55,"calls":[]},"presence_started",{"micros":222,"calls":[]},"guilds_started",{"micros":104,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":13318,"calls":[]},"connect_finished",{"micros":13323,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":24,"calls":[]},"split_ready",{"micros":2,"calls":[]}]}]}] (Session ID: cfbfa7a06a5fd8bfdb3bebf9077ab9b1).
-2023-05-07T18:19:56 [     402] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:19:56 [     448] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:19:57 [       1] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:19:57 [     256] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-xfwm",{"micros":136977,"calls":["id_created",{"micros":1416,"calls":[]},"session_lookup_time",{"micros":3134,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-139",{"micros":131040,"calls":["start_session",{"micros":54733,"calls":["discord-api-785656c5b6-q8msq",{"micros":49430,"calls":["get_user",{"micros":21949},"get_guilds",{"micros":4143},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":59,"calls":[]},"presence_started",{"micros":17770,"calls":[]},"guilds_started",{"micros":89,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":58333,"calls":[]},"connect_finished",{"micros":58338,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":26,"calls":[]}]}]}] (Session ID: 8910fae20671843bb5886ec968f049d2).
-2023-05-07T18:24:34 [     330] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:24:34 [     392] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:24:34 [     944] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:24:35 [     125] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-h0c0",{"micros":68427,"calls":["id_created",{"micros":1236,"calls":[]},"session_lookup_time",{"micros":1453,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-106",{"micros":65086,"calls":["start_session",{"micros":62332,"calls":["discord-api-785656c5b6-t2fjp",{"micros":47048,"calls":["get_user",{"micros":20029},"get_guilds",{"micros":3836},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":50,"calls":[]},"presence_started",{"micros":2352,"calls":[]},"guilds_started",{"micros":83,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":217,"calls":[]},"connect_finished",{"micros":222,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":22,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: d1d3440ef9cd51622006b03f2094846d).
-2023-05-07T18:26:57 [     242] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:26:57 [     281] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:26:58 [      54] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:26:58 [     412] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-7104",{"micros":199607,"calls":["id_created",{"micros":2510,"calls":[]},"session_lookup_time",{"micros":2360,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-239",{"micros":194055,"calls":["start_session",{"micros":119380,"calls":["discord-api-785656c5b6-gnpgs",{"micros":114021,"calls":["get_user",{"micros":30626},"get_guilds",{"micros":10223},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":7852},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":67,"calls":[]},"presence_started",{"micros":11342,"calls":[]},"guilds_started",{"micros":104,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":63096,"calls":[]},"connect_finished",{"micros":63101,"calls":[]},"build_ready",{"micros":27,"calls":[]},"clean_ready",{"micros":31,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":2,"calls":[]}]}]}] (Session ID: cf00c8cb0a9e83a08a7ed924852d6c37).
-2023-05-07T18:32:58 [     869] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:32:58 [     921] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:32:58 [     954] INFO    : client          @run              #712  : Cleaning up tasks.
-2023-05-07T18:32:58 [     954] INFO    : client          @_cleanup_loop    #112  : Closing the event loop.
-2023-05-07T18:33:08 [     111] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:33:08 [     147] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:33:08 [     791] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:33:09 [      34] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-6vkv",{"micros":112197,"calls":["id_created",{"micros":1227,"calls":[]},"session_lookup_time",{"micros":605,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-2",{"micros":110053,"calls":["start_session",{"micros":67095,"calls":["discord-api-785656c5b6-68jrp",{"micros":61790,"calls":["get_user",{"micros":13288},"get_guilds",{"micros":6280},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":62,"calls":[]},"presence_started",{"micros":461,"calls":[]},"guilds_started",{"micros":78,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":42309,"calls":[]},"connect_finished",{"micros":42314,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":22,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 79b0b58798d79c87680bb737a099dc61).
-2023-05-07T18:33:35 [     361] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T18:33:35 [     403] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T18:33:36 [      19] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T18:33:36 [     292] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-9n1r",{"micros":151759,"calls":["id_created",{"micros":1850,"calls":[]},"session_lookup_time",{"micros":839,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-prd-2-249",{"micros":142334,"calls":["start_session",{"micros":139663,"calls":["discord-api-785656c5b6-nkp7p",{"micros":132166,"calls":["get_user",{"micros":22562},"get_guilds",{"micros":32635},"send_scheduled_deletion_message",{"micros":15},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":62,"calls":[]},"presence_started",{"micros":2043,"calls":[]},"guilds_started",{"micros":105,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":409,"calls":[]},"connect_finished",{"micros":414,"calls":[]},"build_ready",{"micros":24,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":21,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 5e9150a74761a812871656a2f7db3125).
-2023-05-07T19:05:47 [     796] INFO    : gateway         @poll_event       #622  : Timed out receiving packet. Attempting a reconnect.
-2023-05-07T19:05:47 [     796] INFO    : client          @connect          #556  : Got a request to RESUME the websocket.
-2023-05-07T19:05:47 [     796] ERROR   : client          @connect          #605  : Attempting a reconnect in 0.31s
+2023-05-13T08:18:42 [     393] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T08:18:42 [     457] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T08:18:44 [     692] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T08:18:45 [     934] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-pwbm",{"micros":132825,"calls":["id_created",{"micros":874,"calls":[]},"session_lookup_time",{"micros":2494,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-196",{"micros":128113,"calls":["start_session",{"micros":70360,"calls":["discord-api-7c8b45696-7q8h2",{"micros":65710,"calls":["get_user",{"micros":23990},"get_guilds",{"micros":6222},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":19263,"calls":[]},"guilds_started",{"micros":100,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":38273,"calls":[]},"connect_finished",{"micros":38279,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":26,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 273a5a0770282dd03c6870ae9b849739).
+2023-05-13T08:19:24 [     980] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T08:19:25 [      27] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T08:19:28 [     528] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T08:19:28 [     980] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-255p",{"micros":193827,"calls":["id_created",{"micros":1230,"calls":[]},"session_lookup_time",{"micros":307,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-168",{"micros":191953,"calls":["start_session",{"micros":96688,"calls":["discord-api-7c8b45696-6lgp4",{"micros":74997,"calls":["get_user",{"micros":21647},"get_guilds",{"micros":14945},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":299},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":51,"calls":[]},"presence_started",{"micros":43241,"calls":[]},"guilds_started",{"micros":82,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":51849,"calls":[]},"connect_finished",{"micros":51853,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":18,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 79293b72753a382b63e880e2ec98d51d).
+2023-05-13T08:20:15 [     877] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T08:20:15 [     965] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T08:20:16 [     497] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T08:20:16 [     695] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-mr73",{"micros":74768,"calls":["id_created",{"micros":1598,"calls":[]},"session_lookup_time",{"micros":2284,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-198",{"micros":69769,"calls":["start_session",{"micros":46669,"calls":["discord-api-7c8b45696-cmmmm",{"micros":41808,"calls":["get_user",{"micros":13261},"get_guilds",{"micros":3584},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":933},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":52,"calls":[]},"presence_started",{"micros":284,"calls":[]},"guilds_started",{"micros":98,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":22623,"calls":[]},"connect_finished",{"micros":22627,"calls":[]},"build_ready",{"micros":15,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":21,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 13bb2cb198288e1d809d74d7c520eef9).
+2023-05-13T08:50:02 [     557] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T08:50:02 [     612] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T08:50:02 [     650] INFO    : client          @run              #712  : Cleaning up tasks.
+2023-05-13T08:50:02 [     650] INFO    : client          @_cleanup_loop    #112  : Closing the event loop.
+2023-05-13T08:50:36 [      66] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T08:50:36 [     108] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T08:50:36 [     648] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T08:50:36 [     920] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-rjm9",{"micros":152941,"calls":["id_created",{"micros":927,"calls":[]},"session_lookup_time",{"micros":2143,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-282",{"micros":149315,"calls":["start_session",{"micros":90480,"calls":["discord-api-7c8b45696-29pq7",{"micros":85059,"calls":["get_user",{"micros":16485},"get_guilds",{"micros":9492},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":266},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":49,"calls":[]},"presence_started",{"micros":372,"calls":[]},"guilds_started",{"micros":99,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":58264,"calls":[]},"connect_finished",{"micros":58271,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":23,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 3e8e71f4f7fb76f4ff5584e892ffad95).
+2023-05-13T08:55:20 [      87] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T08:55:20 [     127] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T08:55:20 [     152] INFO    : client          @run              #712  : Cleaning up tasks.
+2023-05-13T08:55:20 [     153] INFO    : client          @_cleanup_loop    #112  : Closing the event loop.
+2023-05-13T08:55:33 [     395] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T08:55:33 [     433] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T08:55:34 [       0] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T08:55:34 [     224] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-6gbq",{"micros":109373,"calls":["id_created",{"micros":2469,"calls":[]},"session_lookup_time",{"micros":292,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-258",{"micros":105773,"calls":["start_session",{"micros":48059,"calls":["discord-api-7c8b45696-pxfmj",{"micros":43487,"calls":["get_user",{"micros":14732},"get_guilds",{"micros":4018},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":50,"calls":[]},"presence_started",{"micros":327,"calls":[]},"guilds_started",{"micros":93,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":57192,"calls":[]},"connect_finished",{"micros":57198,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":22,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 44c375e30295069f510a9ef4dde62d36).
+2023-05-13T08:56:55 [     804] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T08:56:55 [     845] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T08:56:56 [     429] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T08:56:56 [     710] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-37xv",{"micros":159047,"calls":["id_created",{"micros":1199,"calls":[]},"session_lookup_time",{"micros":4270,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-25",{"micros":151970,"calls":["start_session",{"micros":107500,"calls":["discord-api-7c8b45696-9qzqm",{"micros":99291,"calls":["get_user",{"micros":30231},"get_guilds",{"micros":10324},"send_scheduled_deletion_message",{"micros":15},"guild_join_requests",{"micros":3501},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":64,"calls":[]},"presence_started",{"micros":225,"calls":[]},"guilds_started",{"micros":76,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":44060,"calls":[]},"connect_finished",{"micros":44066,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":19,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 8fe8078f32e4bc93febbe66dfcb2b605).
+2023-05-13T08:58:03 [     153] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T08:58:03 [     198] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T08:58:03 [     721] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T08:58:03 [     931] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-tzc7",{"micros":93558,"calls":["id_created",{"micros":925,"calls":[]},"session_lookup_time",{"micros":448,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-53",{"micros":91552,"calls":["start_session",{"micros":58954,"calls":["discord-api-7c8b45696-fk7rg",{"micros":51420,"calls":["get_user",{"micros":20281},"get_guilds",{"micros":3690},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":5557},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":67,"calls":[]},"presence_started",{"micros":275,"calls":[]},"guilds_started",{"micros":61,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":32151,"calls":[]},"connect_finished",{"micros":32155,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":20,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 97c83512d59a7e4b6169495af6be0e89).
+2023-05-13T08:58:29 [      58] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T08:58:29 [      95] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T08:58:29 [     590] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T08:58:29 [     850] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-b22p",{"micros":147131,"calls":["id_created",{"micros":1277,"calls":[]},"session_lookup_time",{"micros":348,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-227",{"micros":145165,"calls":["start_session",{"micros":67351,"calls":["discord-api-7c8b45696-m4vtk",{"micros":53174,"calls":["get_user",{"micros":17416},"get_guilds",{"micros":4000},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1135},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":49,"calls":[]},"presence_started",{"micros":368,"calls":[]},"guilds_started",{"micros":73,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":77240,"calls":[]},"connect_finished",{"micros":77246,"calls":[]},"build_ready",{"micros":27,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":47,"calls":[]}]}]}] (Session ID: a4c339e4f9968a3fe1a6358e6f440477).
+2023-05-13T09:00:19 [     303] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T09:00:19 [     348] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T09:00:19 [     940] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T09:00:20 [     156] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-wr6g",{"micros":99480,"calls":["id_created",{"micros":932,"calls":[]},"session_lookup_time",{"micros":268,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-271",{"micros":97579,"calls":["start_session",{"micros":52917,"calls":["discord-api-7c8b45696-lvfr5",{"micros":49358,"calls":["get_user",{"micros":15434},"get_guilds",{"micros":4012},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":48,"calls":[]},"presence_started",{"micros":268,"calls":[]},"guilds_started",{"micros":69,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":44238,"calls":[]},"connect_finished",{"micros":44242,"calls":[]},"build_ready",{"micros":15,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":18,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: ae38183dd93b287f3efbadd0abd0a825).
+2023-05-13T09:01:08 [     922] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T09:01:08 [     961] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T09:01:09 [     472] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T09:01:09 [     704] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-255p",{"micros":121710,"calls":["id_created",{"micros":1815,"calls":[]},"session_lookup_time",{"micros":1940,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-252",{"micros":117557,"calls":["start_session",{"micros":85174,"calls":["discord-api-7c8b45696-w2xdr",{"micros":74136,"calls":["get_user",{"micros":28935},"get_guilds",{"micros":6454},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":61,"calls":[]},"presence_started",{"micros":288,"calls":[]},"guilds_started",{"micros":101,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":31882,"calls":[]},"connect_finished",{"micros":31887,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":25,"calls":[]}]}]}] (Session ID: 7d318f72b789ac9b74c7c2efab49b89d).
+2023-05-13T09:06:18 [     291] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T09:06:18 [     336] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T09:06:18 [     916] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T09:06:19 [     147] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-23j6",{"micros":120282,"calls":["id_created",{"micros":1781,"calls":[]},"session_lookup_time",{"micros":5577,"calls":[]},"session_lookup_finished",{"micros":20,"calls":[]},"discord-sessions-prd-2-218",{"micros":111708,"calls":["start_session",{"micros":47262,"calls":["discord-api-7c8b45696-jtz7s",{"micros":42376,"calls":["get_user",{"micros":12545},"get_guilds",{"micros":4188},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":48,"calls":[]},"presence_started",{"micros":235,"calls":[]},"guilds_started",{"micros":63,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":64046,"calls":[]},"connect_finished",{"micros":64051,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":25,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 77a9b93aaf02f93733c73f4dd1e594f4).
+2023-05-13T09:07:02 [     186] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T09:07:02 [     227] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T09:07:02 [     726] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T09:07:02 [     949] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-sz43",{"micros":109441,"calls":["id_created",{"micros":962,"calls":[]},"session_lookup_time",{"micros":233,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-prd-2-114",{"micros":107754,"calls":["start_session",{"micros":76187,"calls":["discord-api-7c8b45696-9rsj9",{"micros":71133,"calls":["get_user",{"micros":18662},"get_guilds",{"micros":8072},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":39}]}]},"starting_guild_connect",{"micros":59,"calls":[]},"presence_started",{"micros":285,"calls":[]},"guilds_started",{"micros":80,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":31099,"calls":[]},"connect_finished",{"micros":31102,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":20,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 7715814e28fd92c883c58ca697b27af2).
+2023-05-13T09:07:19 [     335] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T09:07:19 [     381] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T09:07:19 [     867] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T09:07:20 [     119] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-5m8k",{"micros":141951,"calls":["id_created",{"micros":1149,"calls":[]},"session_lookup_time",{"micros":404,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-280",{"micros":139289,"calls":["start_session",{"micros":82069,"calls":["discord-api-7c8b45696-52q9v",{"micros":77795,"calls":["get_user",{"micros":30487},"get_guilds",{"micros":7779},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":46,"calls":[]},"presence_started",{"micros":194,"calls":[]},"guilds_started",{"micros":88,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":56832,"calls":[]},"connect_finished",{"micros":56838,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":27,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: b4452512d61d0780b251b8bdd995e59e).
+2023-05-13T09:07:36 [     986] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T09:07:37 [      30] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T09:07:37 [     548] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T09:07:37 [     777] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-37xv",{"micros":102334,"calls":["id_created",{"micros":827,"calls":[]},"session_lookup_time",{"micros":4971,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-43",{"micros":96002,"calls":["start_session",{"micros":74834,"calls":["discord-api-7c8b45696-7q8h2",{"micros":71829,"calls":["get_user",{"micros":25916},"get_guilds",{"micros":8704},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":56,"calls":[]},"presence_started",{"micros":191,"calls":[]},"guilds_started",{"micros":72,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":20798,"calls":[]},"connect_finished",{"micros":20804,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":20,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 062a342098e9081313119e64d883592e).
+2023-05-13T09:08:09 [     337] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T09:08:09 [     379] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T09:08:09 [     895] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T09:08:10 [     139] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-tqwj",{"micros":127067,"calls":["id_created",{"micros":838,"calls":[]},"session_lookup_time",{"micros":15669,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-184",{"micros":109534,"calls":["start_session",{"micros":78335,"calls":["discord-api-7c8b45696-tl7kp",{"micros":70392,"calls":["get_user",{"micros":19181},"get_guilds",{"micros":5347},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":57,"calls":[]},"presence_started",{"micros":30674,"calls":[]},"guilds_started",{"micros":90,"calls":[]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":304,"calls":[]},"connect_finished",{"micros":312,"calls":[]},"build_ready",{"micros":37,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":26,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: e3093abc95cb08eceed94d34ba153d29).
+2023-05-13T09:09:16 [     904] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T09:09:16 [     943] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T09:09:17 [     428] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T09:09:17 [     716] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-4m58",{"micros":174789,"calls":["id_created",{"micros":1706,"calls":[]},"session_lookup_time",{"micros":336,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-293",{"micros":171697,"calls":["start_session",{"micros":120900,"calls":["discord-api-7c8b45696-q2szr",{"micros":116244,"calls":["get_user",{"micros":41766},"get_guilds",{"micros":16136},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":3},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":44,"calls":[]},"presence_started",{"micros":239,"calls":[]},"guilds_started",{"micros":73,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":50388,"calls":[]},"connect_finished",{"micros":50393,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":26,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 3f17c42bef7afa1f057442c762ff41bf).
+2023-05-13T09:24:12 [     759] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T09:24:12 [     800] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T09:24:13 [     375] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T09:24:13 [     631] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-3sc8",{"micros":125222,"calls":["id_created",{"micros":636,"calls":[]},"session_lookup_time",{"micros":8890,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-136",{"micros":114901,"calls":["start_session",{"micros":75654,"calls":["discord-api-7c8b45696-vm4l5",{"micros":67922,"calls":["get_user",{"micros":22233},"get_guilds",{"micros":7459},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":47,"calls":[]},"presence_started",{"micros":18060,"calls":[]},"guilds_started",{"micros":107,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":20975,"calls":[]},"connect_finished",{"micros":20980,"calls":[]},"build_ready",{"micros":25,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":24,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 79372e3325f157ac08449e0914c75b64).
+2023-05-13T09:25:40 [     774] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T09:25:40 [     823] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T09:25:41 [     327] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T09:25:41 [     520] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-wz7g",{"micros":64923,"calls":["id_created",{"micros":1529,"calls":[]},"session_lookup_time",{"micros":370,"calls":[]},"session_lookup_finished",{"micros":19,"calls":[]},"discord-sessions-prd-2-200",{"micros":62626,"calls":["start_session",{"micros":42026,"calls":["discord-api-7c8b45696-pkz6v",{"micros":38141,"calls":["get_user",{"micros":12314},"get_guilds",{"micros":3600},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":209},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":49,"calls":[]},"presence_started",{"micros":245,"calls":[]},"guilds_started",{"micros":83,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":20155,"calls":[]},"connect_finished",{"micros":20166,"calls":[]},"build_ready",{"micros":25,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":30,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 6fd6e90f82896708e9f50e203457fa68).
+2023-05-13T09:27:09 [     679] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T09:27:09 [     718] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T09:27:10 [     305] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T09:27:10 [     494] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-zbrx",{"micros":78360,"calls":["id_created",{"micros":1662,"calls":[]},"session_lookup_time",{"micros":4805,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-143",{"micros":70541,"calls":["start_session",{"micros":50890,"calls":["discord-api-7c8b45696-sg2l7",{"micros":46478,"calls":["get_user",{"micros":13920},"get_guilds",{"micros":7121},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":55,"calls":[]},"presence_started",{"micros":400,"calls":[]},"guilds_started",{"micros":83,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":19066,"calls":[]},"connect_finished",{"micros":19071,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":22,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 5bb7765108efdeb4cd9975015be003bb).
+2023-05-13T10:35:25 [     980] WARNING : gateway         @run              #142  : Shard ID None has stopped responding to the gateway. Closing and restarting.
+2023-05-13T10:35:25 [     982] INFO    : gateway         @poll_event       #622  : Timed out receiving packet. Attempting a reconnect.
+2023-05-13T10:35:25 [     983] INFO    : client          @connect          #556  : Got a request to RESUME the websocket.
+2023-05-13T10:35:26 [     599] INFO    : gateway         @resume           #451  : Shard ID None has sent the RESUME payload.
+2023-05-13T10:35:26 [     725] INFO    : gateway         @received_message #517  : Shard ID None session has been invalidated.
+2023-05-13T10:56:42 [     710] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T10:56:42 [     804] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T10:56:43 [     376] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T10:56:43 [     630] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-20wx",{"micros":135934,"calls":["id_created",{"micros":1194,"calls":[]},"session_lookup_time",{"micros":1679,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-124",{"micros":132013,"calls":["start_session",{"micros":58800,"calls":["discord-api-7c8b45696-xs7jw",{"micros":53737,"calls":["get_user",{"micros":19250},"get_guilds",{"micros":5629},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":54,"calls":[]},"presence_started",{"micros":269,"calls":[]},"guilds_started",{"micros":65,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":72769,"calls":[]},"connect_finished",{"micros":72774,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":27,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: a868de7a3f7357f31f79df3cbfd524a5).
+2023-05-13T10:58:44 [     681] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T10:58:44 [     750] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T10:58:45 [     499] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T10:58:45 [     741] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-1fv6",{"micros":126935,"calls":["id_created",{"micros":1715,"calls":[]},"session_lookup_time",{"micros":883,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-273",{"micros":124047,"calls":["start_session",{"micros":73468,"calls":["discord-api-7c8b45696-mhp9v",{"micros":68878,"calls":["get_user",{"micros":18199},"get_guilds",{"micros":7643},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":43,"calls":[]},"presence_started",{"micros":290,"calls":[]},"guilds_started",{"micros":88,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":50108,"calls":[]},"connect_finished",{"micros":50113,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":23,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 0288a6424b8d9393466f303b16218908).
+2023-05-13T10:59:41 [     918] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T10:59:42 [      24] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T10:59:42 [     874] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T10:59:43 [     214] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-pbfj",{"micros":164626,"calls":["id_created",{"micros":1435,"calls":[]},"session_lookup_time",{"micros":266,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-prd-2-125",{"micros":161429,"calls":["start_session",{"micros":72430,"calls":["discord-api-7c8b45696-88b7r",{"micros":54444,"calls":["get_user",{"micros":16546},"get_guilds",{"micros":5696},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":63,"calls":[]},"presence_started",{"micros":41975,"calls":[]},"guilds_started",{"micros":82,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":46820,"calls":[]},"connect_finished",{"micros":46826,"calls":[]},"build_ready",{"micros":24,"calls":[]},"clean_ready",{"micros":26,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 80f78597cb3880d41b1952173423214f).
+2023-05-13T12:02:40 [     327] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T12:02:40 [     452] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T12:02:41 [     435] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T12:02:41 [     666] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-mdh8",{"micros":117570,"calls":["id_created",{"micros":988,"calls":[]},"session_lookup_time",{"micros":706,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-45",{"micros":115096,"calls":["start_session",{"micros":79671,"calls":["discord-api-7c8b45696-gzr67",{"micros":73393,"calls":["get_user",{"micros":21432},"get_guilds",{"micros":16398},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":45,"calls":[]},"presence_started",{"micros":9659,"calls":[]},"guilds_started",{"micros":74,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":25601,"calls":[]},"connect_finished",{"micros":25605,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":20,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: dae57f9d8407c2b5e1b2c6e3aac02f40).
+2023-05-13T12:04:16 [     449] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T12:04:16 [     564] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T12:04:17 [     295] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T12:04:17 [     491] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-v5ts",{"micros":79107,"calls":["id_created",{"micros":1214,"calls":[]},"session_lookup_time",{"micros":354,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-187",{"micros":76446,"calls":["start_session",{"micros":60453,"calls":["discord-api-7c8b45696-5clq7",{"micros":54462,"calls":["get_user",{"micros":16978},"get_guilds",{"micros":9629},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":47}]}]},"starting_guild_connect",{"micros":51,"calls":[]},"presence_started",{"micros":2229,"calls":[]},"guilds_started",{"micros":109,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":13555,"calls":[]},"connect_finished",{"micros":13561,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":19,"calls":[]}]}]}] (Session ID: bf956754dcbed1e4dcaf715bdec28095).
+2023-05-13T12:06:36 [     621] INFO    : gateway         @poll_event       #630  : Websocket closed with 1000, cannot reconnect.
+2023-05-13T12:06:36 [     621] ERROR   : client          @connect          #605  : Attempting a reconnect in 1.11s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 554, in connect
+    await self.ws.poll_event()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 631, in poll_event
+    raise ConnectionClosed(
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2023-05-13T12:06:38 [     164] INFO    : gateway         @resume           #451  : Shard ID None has sent the RESUME payload.
+2023-05-13T12:06:38 [     280] INFO    : gateway         @received_message #542  : Shard ID None has successfully RESUMED session bf956754dcbed1e4dcaf715bdec28095 under trace ["gateway-prd-us-east1-b-wzwb",{"micros":475,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":238,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-187",{"micros":23}]}].
+2023-05-13T12:10:50 [     541] WARNING : gateway         @run              #142  : Shard ID None has stopped responding to the gateway. Closing and restarting.
+2023-05-13T12:10:50 [     543] INFO    : gateway         @poll_event       #622  : Timed out receiving packet. Attempting a reconnect.
+2023-05-13T12:10:50 [     543] INFO    : client          @connect          #556  : Got a request to RESUME the websocket.
+2023-05-13T12:10:50 [     546] ERROR   : client          @connect          #605  : Attempting a reconnect in 0.21s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T12:10:52 [     314] INFO    : gateway         @resume           #451  : Shard ID None has sent the RESUME payload.
+2023-05-13T12:10:52 [     443] INFO    : gateway         @received_message #517  : Shard ID None session has been invalidated.
+2023-05-13T12:10:52 [     579] INFO    : client          @connect          #556  : Got a request to IDENTIFY the websocket.
+2023-05-13T12:10:58 [     278] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T12:10:58 [     551] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-zbrx",{"micros":150720,"calls":["id_created",{"micros":3286,"calls":[]},"session_lookup_time",{"micros":311,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-233",{"micros":146526,"calls":["start_session",{"micros":74874,"calls":["discord-api-7c8b45696-6nhkt",{"micros":68618,"calls":["get_user",{"micros":19077},"get_guilds",{"micros":6269},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":230},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":56,"calls":[]},"presence_started",{"micros":30412,"calls":[]},"guilds_started",{"micros":80,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":41057,"calls":[]},"connect_finished",{"micros":41061,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":22,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: d25fe4965b558c0683b02e6db4ca99c8).
+2023-05-13T12:17:02 [     969] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T12:17:03 [      20] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T12:17:03 [     880] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T12:17:04 [      95] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-j0lc",{"micros":102221,"calls":["id_created",{"micros":784,"calls":[]},"session_lookup_time",{"micros":2114,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-273",{"micros":98335,"calls":["start_session",{"micros":42560,"calls":["discord-api-7c8b45696-ktkhz",{"micros":37168,"calls":["get_user",{"micros":11946},"get_guilds",{"micros":3881},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":643},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":59,"calls":[]},"presence_started",{"micros":365,"calls":[]},"guilds_started",{"micros":73,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":55231,"calls":[]},"connect_finished",{"micros":55236,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":18,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: e98d09b87d0a4a0b47869547c1b09194).
+2023-05-13T18:43:07 [     888] WARNING : gateway         @run              #142  : Shard ID None has stopped responding to the gateway. Closing and restarting.
+2023-05-13T18:43:07 [     889] INFO    : gateway         @poll_event       #622  : Timed out receiving packet. Attempting a reconnect.
+2023-05-13T18:43:07 [     889] INFO    : client          @connect          #556  : Got a request to RESUME the websocket.
+2023-05-13T18:43:09 [     108] INFO    : gateway         @resume           #451  : Shard ID None has sent the RESUME payload.
+2023-05-13T18:43:09 [     252] INFO    : gateway         @received_message #517  : Shard ID None session has been invalidated.
+2023-05-13T18:43:09 [     385] INFO    : client          @connect          #556  : Got a request to IDENTIFY the websocket.
+2023-05-13T18:43:14 [     708] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T18:43:15 [      30] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-ppfr",{"micros":174275,"calls":["id_created",{"micros":1088,"calls":[]},"session_lookup_time",{"micros":3509,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-185",{"micros":167869,"calls":["start_session",{"micros":80728,"calls":["discord-api-7c8b45696-778jd",{"micros":76496,"calls":["get_user",{"micros":16419},"get_guilds",{"micros":12047},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":1177},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":62,"calls":[]},"presence_started",{"micros":45425,"calls":[]},"guilds_started",{"micros":110,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":41492,"calls":[]},"connect_finished",{"micros":41497,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":24,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: dfa0abd4d12e51841e5ccaba0405a15b).
+2023-05-13T18:48:17 [     375] INFO    : gateway         @poll_event       #622  : Timed out receiving packet. Attempting a reconnect.
+2023-05-13T18:48:17 [     376] INFO    : client          @connect          #556  : Got a request to RESUME the websocket.
+2023-05-13T18:48:17 [     385] ERROR   : client          @connect          #605  : Attempting a reconnect in 0.13s
 Traceback (most recent call last):
   File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
     hosts = await asyncio.shield(host_resolved)
@@ -212,7 +219,7 @@ Traceback (most recent call last):
   File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
     raise ClientConnectorError(req.connection_key, exc) from exc
 aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
-2023-05-07T19:05:48 [     158] ERROR   : client          @connect          #605  : Attempting a reconnect in 0.90s
+2023-05-13T18:48:17 [     592] ERROR   : client          @connect          #605  : Attempting a reconnect in 0.73s
 Traceback (most recent call last):
   File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
     hosts = await asyncio.shield(host_resolved)
@@ -252,7 +259,7 @@ Traceback (most recent call last):
   File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
     raise ClientConnectorError(req.connection_key, exc) from exc
 aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
-2023-05-07T19:05:49 [      96] ERROR   : client          @connect          #605  : Attempting a reconnect in 6.65s
+2023-05-13T18:48:18 [     351] ERROR   : client          @connect          #605  : Attempting a reconnect in 1.86s
 Traceback (most recent call last):
   File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
     hosts = await asyncio.shield(host_resolved)
@@ -292,29 +299,584 @@ Traceback (most recent call last):
   File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
     raise ClientConnectorError(req.connection_key, exc) from exc
 aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
-2023-05-07T19:05:56 [      91] INFO    : gateway         @resume           #451  : Shard ID None has sent the RESUME payload.
-2023-05-07T19:05:56 [     220] INFO    : gateway         @received_message #517  : Shard ID None session has been invalidated.
-2023-05-07T19:05:56 [     347] INFO    : client          @connect          #556  : Got a request to IDENTIFY the websocket.
-2023-05-07T19:06:01 [     584] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T19:06:02 [     103] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-vr6b",{"micros":107476,"calls":["id_created",{"micros":1417,"calls":[]},"session_lookup_time",{"micros":4906,"calls":[]},"session_lookup_finished",{"micros":19,"calls":[]},"discord-sessions-prd-2-266",{"micros":100599,"calls":["start_session",{"micros":47360,"calls":["discord-api-785656c5b6-s6rd8",{"micros":42781,"calls":["get_user",{"micros":12886},"get_guilds",{"micros":3524},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":505},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":66,"calls":[]},"presence_started",{"micros":15819,"calls":[]},"guilds_started",{"micros":110,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":37186,"calls":[]},"connect_finished",{"micros":37192,"calls":[]},"build_ready",{"micros":24,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":24,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: e1e8436a9a241cf0a681aad945de1852).
-2023-05-07T19:08:04 [     105] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T19:08:04 [     179] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T19:08:04 [     872] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T19:08:05 [     188] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-nvms",{"micros":191421,"calls":["id_created",{"micros":1426,"calls":[]},"session_lookup_time",{"micros":980,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-prd-2-26",{"micros":188681,"calls":["start_session",{"micros":113107,"calls":["discord-api-785656c5b6-4lfzj",{"micros":99152,"calls":["get_user",{"micros":39784},"get_guilds",{"micros":14966},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":17}]}]},"starting_guild_connect",{"micros":50,"calls":[]},"presence_started",{"micros":31135,"calls":[]},"guilds_started",{"micros":78,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":44255,"calls":[]},"connect_finished",{"micros":44260,"calls":[]},"build_ready",{"micros":28,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":20,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 09c33c50e9aeb9070df1dfa963d8e67d).
-2023-05-07T19:46:55 [     515] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T19:46:55 [     587] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T19:46:56 [     297] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T19:46:56 [     526] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-w0dl",{"micros":111793,"calls":["id_created",{"micros":2366,"calls":[]},"session_lookup_time",{"micros":322,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-292",{"micros":108416,"calls":["start_session",{"micros":95645,"calls":["discord-api-785656c5b6-rvdrr",{"micros":92309,"calls":["get_user",{"micros":29213},"get_guilds",{"micros":10724},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":57,"calls":[]},"presence_started",{"micros":386,"calls":[]},"guilds_started",{"micros":82,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":12180,"calls":[]},"connect_finished",{"micros":12186,"calls":[]},"build_ready",{"micros":23,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":33,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: b0d15cc50d35db65795bc028874edd97).
-2023-05-07T19:48:49 [     853] INFO    : client          @run              #709  : Received signal to terminate bot and event loop.
-2023-05-07T19:48:49 [     854] INFO    : client          @run              #712  : Cleaning up tasks.
-2023-05-07T19:48:49 [     854] INFO    : client          @_cancel_tasks    #87   : Cleaning up after 4 tasks.
-2023-05-07T19:48:49 [     990] INFO    : client          @_cancel_tasks    #92   : All tasks finished cancelling.
-2023-05-07T19:48:49 [     990] INFO    : client          @_cleanup_loop    #112  : Closing the event loop.
-2023-05-07T20:02:30 [     825] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T20:02:30 [     911] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T20:02:31 [     483] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T20:02:31 [     792] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-pbfj",{"micros":186749,"calls":["id_created",{"micros":1139,"calls":[]},"session_lookup_time",{"micros":2311,"calls":[]},"session_lookup_finished",{"micros":24,"calls":[]},"discord-sessions-prd-2-86",{"micros":182585,"calls":["start_session",{"micros":166250,"calls":["discord-api-785656c5b6-k4tdc",{"micros":152340,"calls":["get_user",{"micros":90715},"get_guilds",{"micros":17371},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":263},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":65,"calls":[]},"presence_started",{"micros":5251,"calls":[]},"guilds_started",{"micros":82,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":10881,"calls":[]},"connect_finished",{"micros":10886,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":25,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 4f68065dee6facc8e7c71ce28f9e6059).
-2023-05-07T20:05:12 [     658] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
-2023-05-07T20:05:12 [     726] INFO    : client          @login            #513  : logging in using static token
-2023-05-07T20:05:13 [     362] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
-2023-05-07T20:05:13 [     644] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-bxs4",{"micros":166685,"calls":["id_created",{"micros":1293,"calls":[]},"session_lookup_time",{"micros":627,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-44",{"micros":164198,"calls":["start_session",{"micros":140818,"calls":["discord-api-785656c5b6-xcck6",{"micros":92230,"calls":["get_user",{"micros":33737},"get_guilds",{"micros":4940},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":272},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":299,"calls":[]},"guilds_started",{"micros":91,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":22868,"calls":[]},"connect_finished",{"micros":22873,"calls":[]},"build_ready",{"micros":36,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":17,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 3292b1cb2e80fd91d78f9e100c608d5a).
+2023-05-13T18:48:20 [     237] ERROR   : client          @connect          #605  : Attempting a reconnect in 2.23s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T18:48:22 [     488] ERROR   : client          @connect          #605  : Attempting a reconnect in 18.06s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T18:48:40 [     573] ERROR   : client          @connect          #605  : Attempting a reconnect in 61.50s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T18:49:42 [      94] ERROR   : client          @connect          #605  : Attempting a reconnect in 101.47s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T18:51:23 [     587] ERROR   : client          @connect          #605  : Attempting a reconnect in 92.15s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T18:52:55 [     756] ERROR   : client          @connect          #605  : Attempting a reconnect in 39.61s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T18:53:35 [     378] ERROR   : client          @connect          #605  : Attempting a reconnect in 358.48s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T18:59:33 [     879] ERROR   : client          @connect          #605  : Attempting a reconnect in 315.46s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T19:04:49 [     361] ERROR   : client          @connect          #605  : Attempting a reconnect in 418.45s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T19:11:47 [     838] ERROR   : client          @connect          #605  : Attempting a reconnect in 431.28s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T19:18:59 [     142] ERROR   : client          @connect          #605  : Attempting a reconnect in 1001.50s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T19:35:40 [     686] ERROR   : client          @connect          #605  : Attempting a reconnect in 787.67s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T19:48:48 [     384] ERROR   : client          @connect          #605  : Attempting a reconnect in 493.91s
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 551, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\gateway.py", line 337, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 2869, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\http.py", line 283, in request
+    async with self.__session.request(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\aaaa\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2023-05-13T19:52:23 [     149] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T19:52:23 [     232] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T19:52:24 [     143] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T19:52:24 [     435] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-2gdq",{"micros":169817,"calls":["id_created",{"micros":2058,"calls":[]},"session_lookup_time",{"micros":2477,"calls":[]},"session_lookup_finished",{"micros":19,"calls":[]},"discord-sessions-prd-2-210",{"micros":164433,"calls":["start_session",{"micros":121139,"calls":["discord-api-7c8b45696-4kvg8",{"micros":114257,"calls":["get_user",{"micros":39924},"get_guilds",{"micros":19742},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":58,"calls":[]},"presence_started",{"micros":357,"calls":[]},"guilds_started",{"micros":78,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":42750,"calls":[]},"connect_finished",{"micros":42755,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":22,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: f979f3e8457ea61717b8c52ef6917d5e).
+2023-05-13T19:53:59 [     446] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T19:53:59 [     533] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T19:54:00 [     430] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T19:54:00 [     806] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-w1s2",{"micros":261762,"calls":["id_created",{"micros":1702,"calls":[]},"session_lookup_time",{"micros":2109,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-131",{"micros":257339,"calls":["start_session",{"micros":197455,"calls":["discord-api-7c8b45696-pt7sk",{"micros":192778,"calls":["get_user",{"micros":111406},"get_guilds",{"micros":6064},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":279},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":52,"calls":[]},"presence_started",{"micros":266,"calls":[]},"guilds_started",{"micros":79,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":59432,"calls":[]},"connect_finished",{"micros":59438,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":27,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 43dc9dc833b7c0dffe0afaf9ca6d9fe6).
+2023-05-13T19:55:39 [     479] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T19:55:39 [     537] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T19:55:40 [     413] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T19:55:40 [     649] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-4q8l",{"micros":117028,"calls":["id_created",{"micros":1088,"calls":[]},"session_lookup_time",{"micros":469,"calls":[]},"session_lookup_finished",{"micros":34,"calls":[]},"discord-sessions-prd-2-237",{"micros":111447,"calls":["start_session",{"micros":77430,"calls":["discord-api-7c8b45696-xxpp9",{"micros":71692,"calls":["get_user",{"micros":19424},"get_guilds",{"micros":3342},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":4832},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":56,"calls":[]},"presence_started",{"micros":439,"calls":[]},"guilds_started",{"micros":75,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":33374,"calls":[]},"connect_finished",{"micros":33379,"calls":[]},"build_ready",{"micros":25,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":39,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: f57bfda79fa08232452da986b78a03f0).
+2023-05-13T19:57:46 [     300] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T19:57:46 [     375] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T19:57:47 [     598] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T19:57:47 [     836] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-726s",{"micros":125143,"calls":["id_created",{"micros":1896,"calls":[]},"session_lookup_time",{"micros":476,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-78",{"micros":121885,"calls":["start_session",{"micros":105491,"calls":["discord-api-7c8b45696-d9vbh",{"micros":100503,"calls":["get_user",{"micros":16531},"get_guilds",{"micros":24444},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":5002},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":59,"calls":[]},"presence_started",{"micros":359,"calls":[]},"guilds_started",{"micros":100,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":15792,"calls":[]},"connect_finished",{"micros":15798,"calls":[]},"build_ready",{"micros":26,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":49,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: c9de0cfa150fe0141379e6e9493df582).
+2023-05-13T20:00:24 [     636] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T20:00:24 [     689] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T20:00:25 [     262] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T20:00:25 [     570] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-wz7g",{"micros":183958,"calls":["id_created",{"micros":1530,"calls":[]},"session_lookup_time",{"micros":3333,"calls":[]},"session_lookup_finished",{"micros":20,"calls":[]},"discord-sessions-prd-2-77",{"micros":177776,"calls":["start_session",{"micros":155342,"calls":["discord-api-7c8b45696-mflpc",{"micros":142141,"calls":["get_user",{"micros":43842},"get_guilds",{"micros":16218},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":8509},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":67,"calls":[]},"presence_started",{"micros":303,"calls":[]},"guilds_started",{"micros":68,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":21936,"calls":[]},"connect_finished",{"micros":21943,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":31,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: d71f23973755f052ffe6bf5f24edc9ab).
+2023-05-13T20:01:49 [     533] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T20:01:49 [     608] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T20:01:50 [     445] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T20:01:50 [     731] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-9n1r",{"micros":147247,"calls":["id_created",{"micros":2264,"calls":[]},"session_lookup_time",{"micros":2122,"calls":[]},"session_lookup_finished",{"micros":19,"calls":[]},"discord-sessions-prd-2-60",{"micros":141584,"calls":["start_session",{"micros":124139,"calls":["discord-api-7c8b45696-x5thc",{"micros":116620,"calls":["get_user",{"micros":49138},"get_guilds",{"micros":14846},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":858},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":51,"calls":[]},"presence_started",{"micros":289,"calls":[]},"guilds_started",{"micros":82,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":16949,"calls":[]},"connect_finished",{"micros":16954,"calls":[]},"build_ready",{"micros":41,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":24,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 7becd2a3dabd4878008afabe2cbdb6c3).
+2023-05-13T20:04:54 [     446] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T20:04:54 [     526] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T20:04:55 [     277] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T20:04:55 [     490] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-pbfj",{"micros":98175,"calls":["id_created",{"micros":1446,"calls":[]},"session_lookup_time",{"micros":400,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-164",{"micros":94026,"calls":["start_session",{"micros":70543,"calls":["discord-api-7c8b45696-2kckd",{"micros":62088,"calls":["get_user",{"micros":17734},"get_guilds",{"micros":3968},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":7145},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":79,"calls":[]},"presence_started",{"micros":331,"calls":[]},"guilds_started",{"micros":79,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":22948,"calls":[]},"connect_finished",{"micros":22952,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":21,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 1262f30e7e757daf256e16962773a3f0).
+2023-05-13T20:11:01 [     652] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T20:11:01 [     705] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T20:11:02 [     560] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T20:11:02 [     838] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-fvcf",{"micros":121518,"calls":["id_created",{"micros":1017,"calls":[]},"session_lookup_time",{"micros":515,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-98",{"micros":119505,"calls":["start_session",{"micros":102330,"calls":["discord-api-7c8b45696-jsn7q",{"micros":95209,"calls":["get_user",{"micros":36348},"get_guilds",{"micros":5464},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":7268},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":74,"calls":[]},"presence_started",{"micros":254,"calls":[]},"guilds_started",{"micros":90,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":16703,"calls":[]},"connect_finished",{"micros":16709,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":23,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: f9d4b98ac18b255b2f10a4cf6b4d7b47).
+2023-05-13T20:12:15 [     253] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T20:12:15 [     328] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T20:12:16 [     761] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T20:12:16 [     938] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-99bz",{"micros":55801,"calls":["id_created",{"micros":1864,"calls":[]},"session_lookup_time",{"micros":367,"calls":[]},"session_lookup_finished",{"micros":21,"calls":[]},"discord-sessions-prd-2-103",{"micros":53024,"calls":["start_session",{"micros":48444,"calls":["discord-api-7c8b45696-c8scb",{"micros":43812,"calls":["get_user",{"micros":16191},"get_guilds",{"micros":4606},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":633},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":51,"calls":[]},"presence_started",{"micros":2346,"calls":[]},"guilds_started",{"micros":88,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2041,"calls":[]},"connect_finished",{"micros":2048,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":22,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: b0a136156cb76c516dcdb4bd834af8fe).
+2023-05-13T20:13:00 [     688] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T20:13:00 [     738] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T20:13:01 [     421] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T20:13:01 [     592] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-255p",{"micros":55454,"calls":["id_created",{"micros":1984,"calls":[]},"session_lookup_time",{"micros":367,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-234",{"micros":51516,"calls":["start_session",{"micros":47030,"calls":["discord-api-7c8b45696-lr8jq",{"micros":42085,"calls":["get_user",{"micros":16058},"get_guilds",{"micros":3903},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":54,"calls":[]},"presence_started",{"micros":309,"calls":[]},"guilds_started",{"micros":85,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":3985,"calls":[]},"connect_finished",{"micros":3990,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":24,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 84d81856bfb7f5af9a4517e94ac3164e).
+2023-05-13T20:16:19 [     642] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T20:17:01 [     751] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T20:17:01 [     873] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T20:17:02 [     516] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T20:17:02 [     724] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-rms3",{"micros":94214,"calls":["id_created",{"micros":1209,"calls":[]},"session_lookup_time",{"micros":2540,"calls":[]},"session_lookup_finished",{"micros":23,"calls":[]},"discord-sessions-prd-2-203",{"micros":88591,"calls":["start_session",{"micros":43821,"calls":["discord-api-7c8b45696-b9p4j",{"micros":39737,"calls":["get_user",{"micros":12245},"get_guilds",{"micros":5936},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":270},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":28701,"calls":[]},"guilds_started",{"micros":103,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":15850,"calls":[]},"connect_finished",{"micros":15855,"calls":[]},"build_ready",{"micros":23,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":23,"calls":[]},"split_ready",{"micros":2,"calls":[]}]}]}] (Session ID: 1ab76180ecf182ea007581e639b967ce).
+2023-05-13T20:24:41 [     331] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T20:24:41 [     403] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T20:24:42 [     249] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T20:24:42 [     453] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-wwpd",{"micros":84137,"calls":["id_created",{"micros":3097,"calls":[]},"session_lookup_time",{"micros":5943,"calls":[]},"session_lookup_finished",{"micros":21,"calls":[]},"discord-sessions-prd-2-31",{"micros":74423,"calls":["start_session",{"micros":46984,"calls":["discord-api-7c8b45696-qlm42",{"micros":42096,"calls":["get_user",{"micros":12814},"get_guilds",{"micros":4891},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":948},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":74,"calls":[]},"presence_started",{"micros":26895,"calls":[]},"guilds_started",{"micros":82,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":335,"calls":[]},"connect_finished",{"micros":341,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":24,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 81f4c397f2715b5d7dba9d01435109ac).
+2023-05-13T20:26:13 [     280] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T20:26:13 [     361] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T20:26:13 [     946] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T20:26:14 [     180] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-f6dh",{"micros":109440,"calls":["id_created",{"micros":986,"calls":[]},"session_lookup_time",{"micros":367,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-60",{"micros":107538,"calls":["start_session",{"micros":61843,"calls":["discord-api-7c8b45696-w68jt",{"micros":58655,"calls":["get_user",{"micros":18439},"get_guilds",{"micros":4759},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":3976},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":82,"calls":[]},"presence_started",{"micros":37562,"calls":[]},"guilds_started",{"micros":74,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":7930,"calls":[]},"connect_finished",{"micros":7934,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":23,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: abd8df29b0369ef983fdde6d971463e8).
+2023-05-13T20:27:58 [     866] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T20:27:58 [     946] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T20:27:59 [     728] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T20:28:00 [      40] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-4m58",{"micros":172566,"calls":["id_created",{"micros":1150,"calls":[]},"session_lookup_time",{"micros":423,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-278",{"micros":170630,"calls":["start_session",{"micros":107706,"calls":["discord-api-7c8b45696-wrh7g",{"micros":103018,"calls":["get_user",{"micros":18599},"get_guilds",{"micros":6610},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":51,"calls":[]},"presence_started",{"micros":338,"calls":[]},"guilds_started",{"micros":103,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":62334,"calls":[]},"connect_finished",{"micros":62340,"calls":[]},"build_ready",{"micros":47,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":39,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 2cd8222b14204f9a10af3193688391bb).
+2023-05-13T20:29:12 [       8] WARNING : client          @__init__         #253  : PyNaCl is not installed, voice will NOT be supported
+2023-05-13T20:29:12 [      82] INFO    : client          @login            #513  : logging in using static token
+2023-05-13T20:29:12 [     975] INFO    : gateway         @identify         #437  : Shard ID None has sent the IDENTIFY payload.
+2023-05-13T20:29:13 [     238] INFO    : gateway         @received_message #531  : Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-b0k4",{"micros":142635,"calls":["id_created",{"micros":1745,"calls":[]},"session_lookup_time",{"micros":5450,"calls":[]},"session_lookup_finished",{"micros":23,"calls":[]},"discord-sessions-prd-2-228",{"micros":134891,"calls":["start_session",{"micros":77659,"calls":["discord-api-7c8b45696-4jlqj",{"micros":73239,"calls":["get_user",{"micros":29291},"get_guilds",{"micros":7934},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":1722},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":51,"calls":[]},"presence_started",{"micros":38821,"calls":[]},"guilds_started",{"micros":94,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":18206,"calls":[]},"connect_finished",{"micros":18212,"calls":[]},"build_ready",{"micros":23,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":27,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: aa37f8bc2d233e5e2e1c16d36d00456e).
