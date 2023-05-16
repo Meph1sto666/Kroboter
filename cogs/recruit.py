@@ -49,13 +49,11 @@ class TagSelector(discord.ui.View):
 		# star:str = "\U00002B50"
 		sR: list[list[int]] = [list(dict.fromkeys([i.rarity for i in res[r]]))for r in res]
 		rarities:dict[str, list[tuple[str, tuple[int, int]]]] = dict([(list(res)[s],(min(sR[s]),max(sR[s]))) for s in range(len(list(res)))])
-		res = dict(sorted(res.items(), key=lambda x: (len(x[1]), max([o.rarity for o in x[1]]))))
-		print([max([o.rarity for o in x[1]]) for x in res.items()])
+		res = dict(sorted(res.items(), key=lambda x: (0-min([o.rarity for o in x[1]]),len(x[1]))))
 		await interaction.response.edit_message(view=self, embed=discord.Embed(
 			title="Recruitment results",
 			timestamp=dt.now(),
 			fields=[discord.EmbedField(inline=False,name=f"{r} [{f'{rarities[r][0]} - {rarities[r][1]}' if (rarities[r][0]!=rarities[r][1]) else f'{rarities[r][0]}'}]",value=", ".join([f"`{o.name}`"for o in res[r]]))for r in res]
-			# fields=[discord.EmbedField(inline=False,name=f"{r} [{', '.join([str(a)+star for a in list(dict.fromkeys(sorted([i.rarity for i in res[r]],reverse=True)))])}]",value=" ".join([f"`{o.name}`"for o in res[r]]))for r in res]
 		))
 		
 
@@ -66,6 +64,10 @@ class RecruitCog(commands.Cog):
 	@discord.slash_command(name="reqruit", description="reqruitment tag filter") # type: ignore
 	async def recruitCb(self, ctx:discord.Message) -> None:
 		await ctx.respond(view=TagSelector())  # type: ignore
+	@recruitCb.error # type: ignore
+	async def recruitCbErrorCb(self, ctx:discord.Message, error:discord.ApplicationCommandError) -> None:
+		await ctx.respond(f"```{error} #{error.__traceback__.tb_lineno}```") # type: ignore
+
 
 
 def setup(bot:discord.Bot) -> None:

@@ -7,7 +7,7 @@ tags: list[str] = data.get("tags", []) # type: ignore
 
 a: list[str]=["DPS","Ranged","Sniper","Top Operator","Senior Operator","DP-Recovery","Melee","Vanguard","AoE","Debuff","Caster","Healing","Support","Medic","Defense","Defender","Guard","Survival","Nuker","Slow","Supporter","Crowd-Control","Specialist","Fast-Redeploy","Summon","Shift","Starter","Robot"]
 
-sTags:list[str] = ["Fast-Redeploy", "Sniper", "AeE", "Slow", "Starter"]
+sTags:list[str] = ["Fast-Redeploy", "Sniper", "AoE", "Slow", "Starter"]
 
 res: dict[str, list[RecruitmentOp]] = {}
 for o in operators:
@@ -29,7 +29,6 @@ for r in dict(res).keys():
 # print(rarities)
 
 sR: list[list[int]] = [list(dict.fromkeys([i.rarity for i in res[r]]))for r in res]
-rarities:dict[str, list[tuple[str, tuple[int, int]]]] = dict([(list(res)[s],(min(sR[s]),max(sR[s]))) for s in range(len(list(res)))])
-res = dict(sorted(res.items(), key=lambda x: (len(x[1]), 0-min([o.rarity for o in x[1]]) )))
-print(res)
-print([max([o.rarity for o in x[1]]) for x in res.items()])
+# rarities:dict[str, list[tuple[str, tuple[int, int]]]] = dict([(list(res)[s],(min(sR[s]),max(sR[s]))) for s in range(len(list(res)))])
+res = dict(sorted(res.items(), key=lambda x: (0-min([o.rarity for o in x[1]]),len(x[1]))))
+print(dict([(r,[o.name for o in res[r]]) for r in res]))

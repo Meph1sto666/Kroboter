@@ -17,11 +17,11 @@ class UnitSelectView(discord.ui.View):
 		self.classSelect:discord.ui.Select = discord.ui.Select(custom_id="class",placeholder="Select Oerator class",options=self.editSelects()[1],row=2) # type: ignore
 		self.serverSelect:discord.ui.Select = discord.ui.Select(custom_id="server",placeholder="Select a server",options=self.editSelects()[2],row=3) # type: ignore
 		self.operatorSelect:discord.ui.Select = discord.ui.Select(custom_id="operator",placeholder="Select an operator",options=self.createOperatorOptions()[:25],row=4) # type: ignore
-		# self.operatorSelect.callback = self.operatorSelectCb
 		# set callbacks and add menus
 		self.raritySelect.callback = self.raritySelectCb # type: ignore
 		self.classSelect.callback = self.classSelectCb # type: ignore
 		self.serverSelect.callback = self.serverSelectCb # type: ignore
+		self.operatorSelect.callback = self.operatorSelectCb # type: ignore
 		for i in [self.raritySelect, self.classSelect, self.serverSelect, self.operatorSelect]: # type: ignore
 			self.add_item(i) # type: ignore
 
@@ -31,9 +31,11 @@ class UnitSelectView(discord.ui.View):
 			[discord.SelectOption(label=c,value=c,description=f"{c} Operator",default=(self.classTag!=None and self.classTag==c)) for c in self.classTags],
 			[discord.SelectOption(label=s.upper(),value=s,description=f"{s.upper()} server",default=s=="en") for s in ["en", "cn"]]
 		]
-		self.raritySelect.options = options[0] # type: ignore
-		self.classSelect.options = options[1] # type: ignore
-		self.serverSelect.options = options[2] # type: ignore
+		try:
+			self.raritySelect.options = options[0] # type: ignore
+			self.classSelect.options = options[1] # type: ignore
+			self.serverSelect.options = options[2] # type: ignore
+		except:pass
 		return options
 		
 	async def raritySelectCb(self, interaction:discord.Interaction) -> None:
@@ -55,6 +57,10 @@ class UnitSelectView(discord.ui.View):
 		self.editSelects()
 		self.operatorSelect.options = self.createOperatorOptions() # type: ignore
 		await interaction.response.edit_message(view=self)
+	async def operatorSelectCb(self, interaction:discord.Interaction) -> None:
+		if interaction.data == None: return
+		op:str|None = interaction.data.get("values", [None])[0]
+		await interaction.response.send_message(content=f"you selected: `{op}`")
 	def filterOps(self) -> list[dict[str, str | int | list[dict[str, str]] | list[dict[str, str | bool]] | list[str]]]:
 		return list(filter(lambda x:x["rarity"]==self.rarity and x["class"]==self.classTag and(not x.get("isCnOnly",False) if not self.cnServer else True),list(self.operators.values())))
 	def createOperatorOptions(self) -> list[discord.SelectOption]:
@@ -75,8 +81,9 @@ class LookupCog(commands.Cog):
 
 	@searchCbv1.error # type: ignore
 	async def profileCmdErrorCb(self, ctx:discord.Message, error:discord.ApplicationCommandError) -> None:
-		raise error
+		# await ctx.respond(f"```**{error}**\n{error.with_traceback(error.__traceback__.tb_lasti)}```") # type: ignore
 		# await ctx.respond(f"```{error}```") # type: ignore
+		raise error
 
 
 def setup(bot: discord.Bot) -> None:
