@@ -75,7 +75,8 @@ class LookupCog(commands.Cog):
 
 	@searchCbv1.error # type: ignore
 	async def profileCmdErrorCb(self, ctx:discord.Message, error:discord.ApplicationCommandError) -> None:
-		await ctx.respond(f"```{error}```") # type: ignore
+		raise error
+		# await ctx.respond(f"```{error}```") # type: ignore
 
 
 def setup(bot: discord.Bot) -> None:

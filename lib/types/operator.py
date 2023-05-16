@@ -4,6 +4,7 @@ import typing
 import discord
 from datetime import datetime as dt
 from lib.connections import *
+import itertools
 from lib.misc import *
 """
 class SupportUnit:
@@ -125,10 +126,20 @@ class RecruitmentOp():
         self.rarity:int = rarity
         self.tags:list[str] = tags
 
-    def matchesTags(self, sTags:list[str]) -> bool:
-        return all([t in self.tags for t in sTags]) and (("Top Operator" in self.tags) == ("Top Operator" in sTags))
-    def createEmbedField(self) -> discord.EmbedField:
+    def matchingTags(self, sTags:list[str], rarityTags:list[str]) -> list[str]:
+        tags = list(filter(lambda x: x in self.tags, sTags))
+        return tags if (("Top Operator" in self.tags)==("Top Operator" in sTags)) or (not "Top Operator" in self.tags) else []
+    def createEmbedField(self, matchingTags:list[str]=[]) -> discord.EmbedField:
         return discord.EmbedField(
-            name=self.name + f"[{self.rarity} \U00002B50]",
-            value="\n".join(self.tags)
+            name=self.name + f" [{self.rarity} \U00002B50]",
+            # value="\n".join([f"**{t}**" if t in matchingTags else t for t in self.tags]),
+            value="\n".join(filter(lambda x: x in matchingTags, self.tags)),
+            inline=True
         )
+    def createMatchingTagsStrs(self, sTags:list[str], rarityTags:list[str]) -> list[str]:
+        matches:list[str] = self.matchingTags(sTags,rarityTags)
+        combs:list[list[str]] = []
+        for i in range(len(matches)+1):
+            combs.extend(list(itertools.combinations(matches, i)))
+        
+        return [" & ".join(c) for c in combs]
