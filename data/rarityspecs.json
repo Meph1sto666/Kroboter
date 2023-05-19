@@ -1,0 +1,49 @@
+{
+	"6": {
+		"default_rank": 1,
+		"default_mastery": 0,
+		"default_elite": 0,
+		"default_level": 1,
+		"default_Stage": 0,
+		"rank": [1, 7],
+		"mastery": [0, 3],
+		"elite": [0, 2],
+		"level": [0, 70, 80, 90],
+		"stage": [0, 3]
+	},
+	"5": {
+		"rank": [0, 7],
+		"mastery": [0, 3],
+		"elite": [0, 2],
+		"level": [0, 60, 70, 80],
+		"stage": [0, 3]
+	},
+	"4": {
+		"rank": [0, 7],
+		"mastery": [0, 3],
+		"elite": [0, 2],
+		"level": [0, 45, 60, 70],
+		"stage": [0, 3]
+	},
+	"3": {
+		"rank": [0, 7],
+		"mastery": [0, 0],
+		"elite": [0, 1],
+		"level": [0, 40, 55],
+		"stage": [0, 3]
+	},
+	"2": {
+		"rank": [0, 0],
+		"mastery": [0, 0],
+		"elite": [0, 0],
+		"level": [0, 30],
+		"stage": [0, 3]
+	},
+	"1": {
+		"rank": [0, 0],
+		"mastery": [0, 0],
+		"elite": [0, 0],
+		"level": [0, 30],
+		"stage": [0, 3]
+	}
+}
