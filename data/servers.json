@@ -1,0 +1,28 @@
+{
+	"en": {
+		"name": "Global server",
+		"abb": "EN",
+		"loc": "USA",
+		"default": true
+	},
+	"cn": {
+		"name": "Chinese server",
+		"abb": "CN",
+		"loc": "China"
+	},
+	"jp": {
+		"name": "Japanese server",
+		"abb": "JP",
+		"loc": "Japan"
+	},
+	"kr": {
+		"name": "Korean server",
+		"abb": "KR",
+		"loc": "Korea"
+	},
+	"tw": {
+		"name": "Taiwanese server",
+		"abb": "TW",
+		"loc": "Taiwan"
+	}
+}

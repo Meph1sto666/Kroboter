@@ -16,14 +16,15 @@ class Paginator:
 	def nextPage(self) -> discord.Embed:
 		if not self.pageIndex+1 > len(self.pages): self.pageIndex+=1
 		return self.pages[self.pageIndex]
-	def getPage(self, index:int=-1) -> discord.Embed:
-		return self.pages[self.pageIndex if index < 0 else index]
+	def getPage(self, index:int|None=None) -> discord.Embed:
+		return self.pages[self.pageIndex if index == None else index]
 	async def send(self) -> None:
-		await self.ctx.respond(content=f"{self.pageIndex+1} / {len(self.pages)}", embeds=[*self.constantPages, self.getPage()], view=self.controls, ephemeral=self.ephemeral) # type: ignore
+		self.updateButtons()
+		await self.ctx.respond(embeds=[*self.constantPages, self.getPage()], view=self.controls, ephemeral=self.ephemeral) # type: ignore
 	async def update(self) -> None:
 		if len(self.pages) <= self.pageIndex: self.pageIndex = len(self.pages)-1
 		self.updateButtons()
-		await self.ctx.edit(content=f"{self.pageIndex+1} / {len(self.pages)}", embeds=[*self.constantPages, self.getPage()], view=self.controls)
+		await self.ctx.edit(embeds=[*self.constantPages, self.getPage()], view=self.controls)
 	def addPage(self, page:discord.Embed, index:int|None=None) -> None:
 		self.pages.insert(index if index != None else len(self.pages), page)
 	def editPage(self, index:int, edited:discord.Embed) -> None:
@@ -35,6 +36,7 @@ class Paginator:
 	def updateButtons(self) -> None:
 		self.controls.get_item("prev_btn").disabled = len(self.pages) < 1 or self.pageIndex < 1 # type: ignore
 		self.controls.get_item("next_btn").disabled = len(self.pages) < 1 or self.pageIndex+1 >= len(self.pages) # type: ignore
+		self.controls.get_item("page_btn").label = f"PAGE {self.pageIndex+1} / {len(self.pages)}" # type: ignore
 
 class PaginatorOptions(discord.ui.View):
 	def __init__(self, parent:Paginator, *items: Item, timeout: float | None = 180, disable_on_timeout: bool = False) -> None: # type: ignore
@@ -47,6 +49,9 @@ class PaginatorOptions(discord.ui.View):
 		self.parent.updateButtons()
 		await interaction.response.defer()
 		await self.parent.update()
+	@discord.ui.button(label="PAGE {c}/{total}", style=discord.ButtonStyle.gray, custom_id="page_btn", disabled=True) # type: ignore
+	async def cb_tts_page_btn(self, button:discord.Button, interaction:discord.Interaction) -> None:
+		pass
 	@discord.ui.button(label="NEXT \U000027A1", style=discord.ButtonStyle.blurple, custom_id="next_btn") # type: ignore
 	async def cb_tts_next_btn(self, button:discord.Button, interaction:discord.Interaction) -> None:
 		self.parent.nextPage()
